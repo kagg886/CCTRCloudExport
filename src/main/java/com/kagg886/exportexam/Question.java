@@ -1,5 +1,6 @@
 package com.kagg886.exportexam;
 
+import com.alibaba.fastjson2.JSONArray;
 import lombok.Data;
 
 import java.io.ByteArrayInputStream;
@@ -49,7 +50,7 @@ public class Question {
     private String analysishtml_svg;
     private String scoredimensions;
     private String scorestandardhtml;
-    private String options;
+    private JSONArray options;
     private String subquestions;
     private String id;
     private String state;

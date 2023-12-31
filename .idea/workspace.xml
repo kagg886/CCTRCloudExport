@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73a85eb-9578-49b4-875d-85a36cabf825" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msedge_beta_121.0.2277.4_driver_bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/RSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EdgeTest.java" afterDir="false" />
+    <list default="true" id="c73a85eb-9578-49b4-875d-85a36cabf825" name="更改" comment="add README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ImageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EdgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EdgeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +45,7 @@
   "keyToString": {
     "Gradle.EdgeTest.testCaptcha.executor": "Run",
     "Gradle.EdgeTest.testEdgeDriver.executor": "Run",
-    "Gradle.ExamLibExport [:Main.main()].executor": "Debug",
+    "Gradle.ExamLibExport [:Main.main()].executor": "Run",
     "Gradle.Test.testEdgeDriver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -183,22 +170,34 @@
       <option name="presentableId" value="Default" />
       <updated>1703948600098</updated>
       <workItem from="1703948601199" duration="840000" />
-      <workItem from="1703949450338" duration="2227000" />
+      <workItem from="1703949450338" duration="2511000" />
+      <workItem from="1703997050705" duration="2992000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1703951836757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703951836757</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add README.md">
+      <option name="closed" value="true" />
+      <created>1703951919493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703951919493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kagg886/Main.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
   </component>
 </project>
