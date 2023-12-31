@@ -8,6 +8,7 @@ import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -41,6 +42,15 @@ public class Library {
         //id:
         //list: true
         //studentpractisequestioncount: 53
+
+        return new ArrayList<>() {{
+            addAll(getQuestionsByType(0));
+            addAll(getQuestionsByType(1));
+        }};
+    }
+
+    @SneakyThrows
+    public List<Question> getQuestionsByType(int i) {
         String body = Jsoup.newSession()
                 .url("https://api.cctrcloud.net/mobile/index.php?act=studentpracticeapi&op=getStudentPractiseQuestionList")
                 .method(Connection.Method.POST)
@@ -51,7 +61,7 @@ public class Library {
                 .data("teacherid",teacherid)
                 .data("pagecount","15000")
                 .data("pageindex","1")
-                .data("practisetype","0")
+                .data("practisetype",String.valueOf(i))
                 .data("statenum","0")
 //                .data("id","")
                 .data("list","true")

@@ -52,8 +52,8 @@ public class WebDriver {
 
         try {
             //注入id
-            Document doc = Jsoup.parse(html);
-            doc.body().child(0).attr("id","captcha");
+            Document doc = Jsoup.parse("<div>" + html + "</div>");
+            doc.body().child(0).attr("id", "captcha");
             html = doc.html();
 
             //写入tmp到html中

@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73a85eb-9578-49b4-875d-85a36cabf825" name="更改" comment="add README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ImageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DecodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EdgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EdgeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.DecodeTest.testDecode.executor": "Run",
     "Gradle.EdgeTest.testCaptcha.executor": "Run",
     "Gradle.EdgeTest.testEdgeDriver.executor": "Run",
     "Gradle.ExamLibExport [:Main.main()].executor": "Run",
@@ -79,6 +78,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="DecodeTest.testDecode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DecodeTest.testDecode&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="EdgeTest.testCaptcha" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -154,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DecodeTest.testDecode" />
         <item itemvalue="Gradle.EdgeTest.testCaptcha" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="Gradle.EdgeTest.testEdgeDriver" />
@@ -195,9 +219,31 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add README.md" />
     <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
