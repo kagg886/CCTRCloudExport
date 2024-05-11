@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class EdgeTest {
 
-    private final WebDriver driver = WebDriver.getInstance();
+    private final WebDriver driver = new WebDriver(new File(""),false);
     @Test
     public void testCaptcha() throws IOException {
         BufferedImage image = driver.captchaPic("<p>abcdefg</p>");

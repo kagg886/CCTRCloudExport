@@ -21,25 +21,18 @@ import java.nio.charset.StandardCharsets;
 import java.util.UUID;
 
 public class WebDriver {
-    private static final WebDriver INSTANCE = new WebDriver();
-
     private final EdgeDriver driver;
 
-    private WebDriver() {
-        File f = new File("");
-        System.out.println(f.getAbsolutePath());
-
+    public WebDriver(File file,boolean headless) {
         System.setProperty("webdriver.edge.verboseLogging", "true");
 
         driver = new EdgeDriver(EdgeDriverService.createDefaultService(), new EdgeOptions() {{
-//            addArguments("headless");
+            if (headless) {
+                addArguments("headless");
+            }
             addArguments("lang=lang=zh_CN.UTF-8");
-            setBinary(new File("msedge_beta_121.0.2277.4_driver_bin"));
+            setBinary(file);
         }});
-    }
-
-    public static WebDriver getInstance() {
-        return INSTANCE;
     }
 
     @SneakyThrows

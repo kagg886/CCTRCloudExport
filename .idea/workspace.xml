@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73a85eb-9578-49b4-875d-85a36cabf825" name="更改" comment="add README.md">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DecodeTest.java" afterDir="false" />
+    <list default="true" id="526dee1b-af52-4b6a-bd51-eda540e33236" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/UniappTool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/MsEdgeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/ZipFileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msedge_beta_121.0.2277.4_driver_bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/exportexam/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DecodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EdgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EdgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EdgeDownloaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,40 +39,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2aGcx5nb73I3RpOfzsBt9B94ud5" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kagg886"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kagg886/CCTRCloudExport",
+    "accountId": "744797a5-7cfe-4769-805c-a59c0dd2beed"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2gKJMF1y8B29QbaYxuX7r9wI23b" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.DecodeTest.testDecode.executor": "Run",
-    "Gradle.EdgeTest.testCaptcha.executor": "Run",
-    "Gradle.EdgeTest.testEdgeDriver.executor": "Run",
-    "Gradle.ExamLibExport [:Main.main()].executor": "Run",
-    "Gradle.Test.testEdgeDriver.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "Gradle.CCTRCloudExport [:Main.main()].executor": "Run",
+    "Gradle.EdgeDownloaderTest.testDownload.executor": "Run",
+    "Gradle.EdgeDownloaderTest.testPlatform.executor": "Run",
+    "Gradle.EdgeDownloaderTest.testUnzip.executor": "Run",
+    "Gradle.EdgeDownloaderTest.testVersion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kagg886/IdeaProjects/ExamLibExport",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
   <component name="RunManager" selected="应用程序.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kagg886.Main" />
@@ -79,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecodeTest.testDecode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EdgeDownloaderTest.testDownload" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -92,7 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;DecodeTest.testDecode&quot;" />
+            <option value="&quot;EdgeDownloaderTest.testDownload&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -103,7 +119,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="EdgeTest.testCaptcha" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EdgeDownloaderTest.testPlatform" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,7 +132,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;EdgeTest.testCaptcha&quot;" />
+            <option value="&quot;EdgeDownloaderTest.testPlatform&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,7 +143,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="EdgeTest.testEdgeDriver" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EdgeDownloaderTest.testUnzip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;EdgeTest.testEdgeDriver&quot;" />
+            <option value="&quot;EdgeDownloaderTest.testUnzip&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -151,7 +167,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Test.testEdgeDriver" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EdgeDownloaderTest.testVersion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Test.testEdgeDriver&quot;" />
+            <option value="&quot;EdgeDownloaderTest.testVersion&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,77 +189,128 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CCTRCloudExport" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CCTRCloudExport" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="CCTRCloudExport" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="CCTRCloudExport" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="CCTRCloudExport" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="CCTRCloudExport" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="CCTRCloudExport" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DecodeTest.testDecode" />
-        <item itemvalue="Gradle.EdgeTest.testCaptcha" />
         <item itemvalue="应用程序.Main" />
-        <item itemvalue="Gradle.EdgeTest.testEdgeDriver" />
-        <item itemvalue="Gradle.Test.testEdgeDriver" />
+        <item itemvalue="Gradle.EdgeDownloaderTest.testUnzip" />
+        <item itemvalue="Gradle.EdgeDownloaderTest.testDownload" />
+        <item itemvalue="Gradle.EdgeDownloaderTest.testVersion" />
+        <item itemvalue="Gradle.EdgeDownloaderTest.testPlatform" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="c73a85eb-9578-49b4-875d-85a36cabf825" name="更改" comment="" />
-      <created>1703948600098</created>
+      <changelist id="526dee1b-af52-4b6a-bd51-eda540e33236" name="更改" comment="" />
+      <created>1715440286167</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703948600098</updated>
-      <workItem from="1703948601199" duration="840000" />
-      <workItem from="1703949450338" duration="2511000" />
-      <workItem from="1703997050705" duration="2992000" />
+      <updated>1715440286167</updated>
+      <workItem from="1715440287231" duration="2844000" />
     </task>
-    <task id="LOCAL-00001" summary="init">
-      <option name="closed" value="true" />
-      <created>1703951836757</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1703951836757</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add README.md">
-      <option name="closed" value="true" />
-      <created>1703951919493</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1703951919493</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
-    <MESSAGE value="add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

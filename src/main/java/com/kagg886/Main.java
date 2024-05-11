@@ -5,6 +5,7 @@ import com.kagg886.exportexam.Library;
 import com.kagg886.exportexam.Question;
 import com.kagg886.exportexam.User;
 import com.kagg886.utils.ImageUtil;
+import com.kagg886.utils.MsEdgeUtils;
 import com.kagg886.utils.WebDriver;
 
 import javax.imageio.ImageIO;
@@ -19,22 +20,25 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args) throws IOException {
         User u = new User();
-
         u.login("U101441", "2203050528", "123123qweqwe");
+        System.out.println("登录成功，准备初始化Web Driver");
 
+        //下载链接：https://msedgedriver.azureedge.net/124.0.2478.97/edgedriver_linux64.zip
+        MsEdgeUtils.download(MsEdgeUtils.getFullDownloadUrl(), (d) -> {
+            System.out.printf("下载中...%2f%n",d);
+        });
 
+        String targetFileName = MsEdgeUtils.getPlatform() == MsEdgeUtils.Platform.LINUX ? "" : ".exe";
+
+        WebDriver driver = new WebDriver(new File("msedgedriver/msedgedriver" + targetFileName), false);
         for (Library l : u.getLibraries()) {
             System.out.println("正在导出:" + l.getPracticename());
-            if (!l.getLessonname().contains("复变")) {
-                continue;
-            }
             List<Question> questions = l.getAllQuestions();
             for (int i = 0; i < questions.size(); i++) {
                 System.out.printf("第%d个，共%d个,题型:%s\n", i + 1, questions.size(), questions.get(i).getQuestiontypename());
                 Question a = questions.get(i);
 
 
-                WebDriver driver = WebDriver.getInstance();
                 List<BufferedImage> i2 = new ArrayList<>() {{
                     add(driver.captchaPic(a.decode(a.getSubjecthtml_svg())));
                 }};
@@ -68,6 +72,6 @@ public class Main {
         }
 
 
-        WebDriver.getInstance().destroy();
+        driver.destroy();
     }
 }
