@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="526dee1b-af52-4b6a-bd51-eda540e33236" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/UniappTool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/MsEdgeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/ZipFileUtil.java" afterDir="false" />
+    <list default="true" id="526dee1b-af52-4b6a-bd51-eda540e33236" name="更改" comment="feat: ✨ 添加驱动自动下载">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msedge_beta_121.0.2277.4_driver_bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kagg886/utils/WebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DecodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DecodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EdgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EdgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EdgeDownloaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kagg886"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kagg886&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kagg886/CCTRCloudExport",
-    "accountId": "744797a5-7cfe-4769-805c-a59c0dd2beed"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kagg886/CCTRCloudExport&quot;,
+    &quot;accountId&quot;: &quot;744797a5-7cfe-4769-805c-a59c0dd2beed&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2gKJMF1y8B29QbaYxuX7r9wI23b" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -306,11 +297,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715440286167</updated>
-      <workItem from="1715440287231" duration="2844000" />
+      <workItem from="1715440287231" duration="2990000" />
+      <workItem from="1715503587227" duration="25000" />
+      <workItem from="1715519039166" duration="34000" />
+      <workItem from="1715588712942" duration="1883000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: ✨ 添加驱动自动下载">
+      <option name="closed" value="true" />
+      <created>1715443223004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715443223004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: ✨ 添加驱动自动下载" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ✨ 添加驱动自动下载" />
   </component>
 </project>

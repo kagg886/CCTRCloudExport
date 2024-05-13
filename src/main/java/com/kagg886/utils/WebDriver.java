@@ -69,6 +69,6 @@ public class WebDriver {
     }
 
     public void destroy() {
-        driver.close();
+        driver.quit();
     }
 }
